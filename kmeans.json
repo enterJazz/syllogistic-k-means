@@ -1,0 +1,9 @@
+{
+    "data.train": "data/Ragni2016.csv", 
+    "data.test": "data/Veser2018.csv",
+    "corresponding_data": false,
+    "models": [
+        "models/cluster_extractor/syllogistic_kmeans_model.py"
+    ]
+}
+
