@@ -1,6 +1,18 @@
 # syllogistic-k-means
 A machine learning approach to human syllogistic reasoning using k-means++
 
+## What are syllogisms?
+Syllogisms are simple reasoning tasks, which serve as a framework for human reasoning.
+A syllogism consists of two quantified statements, e.g.:
+"All Artists are Bakers" and "No Bakers are Dancers", or 
+"Some Policemen are Firefighters" and "Some Firefighters are not Cowboys".
+
+A human response to a syllogism, such as the one above, might be:
+"Some Policemen are not Cowboys"
+These human responses may, of course, not be logically valid (i.e. logically correct).
+
+The program in this repository tries to predict these human syllogisms for each individual participant, adapting to the individuals answers.
+
 ## How to use
 ### Prerequisites
 Following packages are required to run syllogistic-k-means:
